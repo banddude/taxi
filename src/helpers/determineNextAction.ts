@@ -64,7 +64,7 @@ export async function determineNextAction(
           },
           { role: 'user', content: prompt },
         ],
-        max_tokens: 500,
+        max_tokens: 10000,
         temperature: 0,
         stop: ['</Action>'],
       });
